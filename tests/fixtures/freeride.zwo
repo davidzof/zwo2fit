@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workout_file>
+  <author>Wattzap FTMS2FEC</author>
+  <name>ERG FreeRide ERG Test</name>
+  <description>Three-minute diagnostic workout: 1 minute at 150 W (assuming FTP 200 W), 1 minute of untargeted FreeRide, then 1 minute at 150 W. Watch the FTMS2FEC log for the mode change entering FreeRide.</description>
+  <sportType>bike</sportType>
+  <tags>
+    <tag name="TEST"/>
+  </tags>
+  <workout>
+    <SteadyState Duration="60" Power="0.75"/>
+    <FreeRide Duration="60"/>
+    <SteadyState Duration="60" Power="0.75"/>
+  </workout>
+</workout_file>

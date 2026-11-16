@@ -1,0 +1,19 @@
+
+<workout_file>
+  <name>Simple ERG Workout</name>
+  <sportType>bike</sportType>
+  <workout>
+    <Warmup Duration="300"
+            PowerLow="0.50" PowerHigh="0.75"/>
+
+    <SteadyState Duration="600" Power="0.80"/>
+
+    <IntervalsT Repeat="4"
+                OnDuration="60" OnPower="1.10"
+                OffDuration="120" OffPower="0.50"/>
+
+    <Cooldown Duration="300"
+              PowerLow="0.60" PowerHigh="0.40"/>
+  </workout>
+</workout_file>
+

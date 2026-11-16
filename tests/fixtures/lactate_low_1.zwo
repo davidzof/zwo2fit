@@ -1,0 +1,19 @@
+<workout_file>
+    <author>C.OHearn Z50</author>
+    <name>Lactate Low 1</name>
+    <description>3x5 Lactate Threshold Intervals Low Dose</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="FTP"/>
+        <tag name="Lactate"/>
+        <tag name="Sweet"/>
+        <tag name="Spot"/>
+    </tags>
+    <workout>
+        <Warmup Duration="1200" PowerLow="0.55449998" PowerHigh="0.80449998"/>
+        <IntervalsT Repeat="3" OnDuration="300" OffDuration="90" OnPower="0.95449996" OffPower="0.55449998"/>
+        <Ramp Duration="600" PowerLow="0.75449997" PowerHigh="0.55449998"/>
+        <FreeRide Duration="300" FlatRoad="1"/>
+    </workout>
+</workout_file>
